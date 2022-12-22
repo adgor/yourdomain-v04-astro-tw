@@ -6,7 +6,7 @@ import { Icon } from "astro-icon";
 const { ...attributes } = Astro.props;
 ---
 
-<header class=" bg-gray-900" >
+<header class="bg-gray-900">
   <div
     class="mx-auto px-4 py-5 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8"
     {...attributes}
@@ -18,9 +18,8 @@ const { ...attributes } = Astro.props;
           aria-label="Company"
           title="Company"
           class="inline-flex items-center rounded text-gray-700 ring-brand transition duration-500 hover:text-gray-900 focus:outline-none focus-visible:ring-4 lg:mr-8"
-        > 
- <Icon name="logo" class="w-10 text-white" />
-
+        >
+          <Icon name="logo" class="w-10 text-white" />
         </a>
         <ul class="flex hidden items-center space-x-6 lg:flex">
           {
@@ -29,9 +28,9 @@ const { ...attributes } = Astro.props;
                 <a
                   class="
 
-text-base font-medium text-white hover:text-gray-300
+text-base font-medium capitalize tracking-wide
 
-                  capitalize tracking-wide transition-colors duration-500 "
+                  text-white transition-colors duration-500 hover:text-gray-300 "
                   href={url}
                 >
                   {title}

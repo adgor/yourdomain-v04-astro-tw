@@ -1,15 +1,11 @@
 # Project
 
 Project Description
-Multilingual site
 
 ### Todo
 
-- [ ] todo  
+- [ ] todo
 
 ### In Progress
 
-
 ### Done ✓
-
-
