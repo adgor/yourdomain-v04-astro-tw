@@ -1,0 +1,25 @@
+{
+  "name": "yourdomainv0-4-astro-tw",
+  "type": "module",
+  "version": "0.4",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write \"src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}\"",
+    "clean": "rimraf dist node_modules"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^2.1.0",
+    "astro": "^1.5.0",
+    "astro-icon": "^0.8.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.5",
+    "prettier-plugin-tailwindcss": "^0.2.0",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.1.8"
+  }
+}
